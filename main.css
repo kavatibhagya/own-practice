@@ -52,3 +52,28 @@ h3{
 
     
 }
+.ulclass{
+  text-align: center;
+  width:100%;
+  list-style-type: none;
+  
+}
+.div-one{
+  display:flex;
+  padding-left:100px;
+  margin-bottom: 30px;
+
+
+}
+.div-two{
+  display:flex;
+  padding-left: 100px;
+}
+
+.div-one li{
+  margin-right:200px;
+
+}
+.div-two li{
+  margin-right:200px;
+}
