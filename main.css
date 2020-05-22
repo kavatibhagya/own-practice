@@ -1,5 +1,6 @@
 body{
-    margin:auto;
+    max-width: 1400px;
+    margin:0 auto;
     font-family: 'Balsamiq Sans', cursive;
 }
 .maindiv-one{
@@ -8,13 +9,14 @@ body{
     flex-wrap: wrap;  
     background-color: rgb(255, 247, 247);
     min-height:320px;
-    padding: 20px;
+    padding: 40px;
    justify-content: center;
+   
   
 }
 .inside-div{
-    height: 300px;
-    width: 550px;
+    min-height: 300px;
+    max-width: 380px;
     padding-left:30px;
     border-radius: 5px;
 }
