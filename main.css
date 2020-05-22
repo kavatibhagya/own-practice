@@ -1,79 +1,66 @@
 body{
-    margin:o auto;
+    margin:auto;
     font-family: 'Balsamiq Sans', cursive;
-    font-family: 'Roboto', sans-serif;
 }
-.maindiv{
+.maindiv-one{
+  
     display: flex;
+    flex-wrap: wrap;  
     background-color: rgb(255, 247, 247);
-    height:420px;
-    width:80%;
-    padding-left: 100px;
-    padding-top: 100px;
-    padding-right: 100px;
-    margin-left: 90px;
+    min-height:320px;
+    padding: 20px;
+   justify-content: center;
+  
 }
 .inside-div{
     height: 300px;
     width: 550px;
-    padding-left: 50px;
-    padding-top: 10px;
+    padding-left:30px;
     border-radius: 5px;
-    
 }
 header{
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 .space{
-     margin-right: 40px;
+     margin-right: 30px;
 } 
 h3{
     text-transform: capitalize;
     font-weight: 1000;
     font-size: 30px;
 }
+
 .color1{
     background-color: rgb(30, 115, 242, 0.7);
     color:#fff;
     line-height: 1.8rem;
-
-
 }
+
 .color2{
     background-color: rgb(47, 206, 172,0.7);
     color:#fff;
     line-height: 1.8rem;
 }
 .color3{
-    background-color: rgb(230, 207, 32, 0.7);
+    background-color: rgba(216, 151, 220, 0.7);
     line-height: 1.8rem;
+    color:#fff;
 
     
 }
-.ulclass{
-  text-align: center;
-  width:100%;
-  list-style-type: none;
+.maindiv-two{
   
+  display: flex;
+  flex-wrap: wrap;  
 }
-.div-one{
-  display:flex;
-  padding-left:100px;
-  margin-bottom: 30px;
+.maindiv-two > div{
+    
+     min-height:200px;
+     max-width:200px;
+     margin:50px;
+     padding:50px;
+     text-align: center;
+}
 
-
-}
-.div-two{
-  display:flex;
-  
-}
-
-.div-one li{
-  margin-right:200px;
-
-}
-.div-two li{
-  margin-right:200px;
-}
